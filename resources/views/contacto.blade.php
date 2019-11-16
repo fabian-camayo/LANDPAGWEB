@@ -1,4 +1,4 @@
-<div class="section contacto" id="contacto">
+<div class="section contacto">
 		<div class="inner">
 				
 			<div class="conformcontacto">
@@ -13,7 +13,7 @@
 						<small class="form-text text-muted text-left">{{ $message }}</small>
 						@enderror	
 							<div class="form-group">
-								<input type="text" name="nombre" class="form-control" id="nombre" aria-describedby="Nombre" placeholder="Nombre" required>
+								<input type="text" name="nombre" class="form-control" id="nombre" aria-describedby="nombre" placeholder="Nombre" required>
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -21,7 +21,7 @@
 						<small class="form-text text-muted text-left">{{ $message }}</small>
 						@enderror
 							<div class="form-group">
-								<input type="number" name="telefono" class="form-control" id="telefono" aria-describedby="Teléfono" placeholder="Teléfono" required>
+								<input type="number" name="telefono" class="form-control" id="telefono" aria-describedby="telefono" placeholder="Teléfono" required>
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -29,7 +29,7 @@
 						<small class="form-text text-muted text-left">{{ $message }}</small>
 						@enderror
 							<div class="form-group">
-						  		<input type="email" name="correo" class="form-control" id="correoelectronico" aria-describedby="Correo electrónico" placeholder="Correo electrónico" required>
+						  		<input type="email" name="correo" class="form-control" id="correoelectronico" aria-describedby="correoelectronico" placeholder="Correo electrónico" required>
 							</div>
 						</div>
 						<div class="col-md-12">

@@ -1,4 +1,4 @@
-<div class="section nosotros" id="nosotros">
+<div class="section nosotros">
 		<div class="inner h-100">
 			<section class="h-100">
 				<div class="row h-100">

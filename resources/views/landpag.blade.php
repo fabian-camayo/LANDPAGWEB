@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <title>LANDPAG | Desarrollo web profesional</title>
 
@@ -104,10 +104,7 @@ $(window).scroll(function(){
 </div>
 @if(!empty($data) or $errors->any())
 	<script>
-			$('html, body').animate({
-            scrollTop: $('.contacto').position().top },
-            2000
-        );
+			$('html, body').animate({scrollTop: $('.contacto').position().top },2000);
 	</script>
 @endif
 

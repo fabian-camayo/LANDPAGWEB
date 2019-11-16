@@ -1,4 +1,4 @@
-<div class="section servicios" id="servicios">
+<div class="section servicios">
 	<div class="inner h-100">
 		<section class="h-100">
 				<div class="row h-30">
@@ -15,7 +15,7 @@
 								<div class="card-body">
 							  <h5 class="card-title">Desarrollo y diseño web</h5>
 							  <p class="card-text txt-just">Todas nuestras paginas web desde las de aterrizaje hasta las tiendas online se crean con alta calidad.</p>
-							  	<form class="" action="{{route('contacto-tipo')}}" id="form-general"  method="POST" autocomplete="off">
+							  	<form action="{{route('contacto-tipo')}}"  method="POST" autocomplete="off">
 									@csrf
 									<input type="hidden" name="tipo" value="Desarrollo y diseño web">
 									<button type="submit" class="btn btn-info">Solicitar</button>
@@ -29,7 +29,7 @@
 								<div class="card-body">
 								  <h5 class="card-title">Gestión de bases de datos</h5>
 								  <p class="card-text txt-just">Nuestras estructuras de bases de datos ayudan a escalar y a  mejorar el análisis de los datos.</p>
-								  	<form class="" action="{{route('contacto-tipo')}}" id="form-general"  method="POST" autocomplete="off">
+								  	<form action="{{route('contacto-tipo')}}"  method="POST" autocomplete="off">
 										@csrf
 										<input type="hidden" name="tipo" value="Gestión de bases de datos">
 										<button type="submit" class="btn btn-info">Solicitar</button>
@@ -43,7 +43,7 @@
 								<div class="card-body">
 								  <h5 class="card-title">Correos corporativos</h5>
 								  <p class="card-text txt-just">Un correo corporativo habla mucho de tu empresa y nuestros paquetes ayudan a no gastar tanto para lograrlo.</p>
-								  	<form class="" action="{{route('contacto-tipo')}}" id="form-general"  method="POST" autocomplete="off">
+								  	<form action="{{route('contacto-tipo')}}"  method="POST" autocomplete="off">
 										@csrf
 										<input type="hidden" name="tipo" value="Correos corporativos">
 										<button type="submit" class="btn btn-info">Solicitar</button>
@@ -57,7 +57,7 @@
 								<div class="card-body">
 								  <h5 class="card-title">Posicionamiento web</h5>
 								  <p class="card-text txt-just">Estar en los primeros puestos en las búsquedas, le facilitara la comprobación de su potencial en Internet. </p>
-								  	<form class="" action="{{route('contacto-tipo')}}" id="form-general"  method="POST" autocomplete="off">
+								  	<form  action="{{route('contacto-tipo')}}"  method="POST" autocomplete="off">
 										@csrf
 										<input type="hidden" name="tipo" value="Posicionamiento web">
 										<button type="submit" class="btn btn-info">Solicitar</button>

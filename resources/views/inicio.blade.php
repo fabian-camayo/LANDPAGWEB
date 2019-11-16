@@ -1,4 +1,4 @@
-<div class="section inicio" id="inicio">
+<div class="section inicio">
 		<div class="inner">
 			<ul class="rslides">
 				<li>
@@ -27,7 +27,7 @@
 			<div class="portada animated bounceInDown">
 					<h6>Paginas web desde $400.000</h6>
 					<h1 class="portadatitulo">DESARROLLO WEB PROFESIONAL</h1>
-					<form class="" action="{{route('contacto-tipo')}}" id="form-general"  method="POST" autocomplete="off">
+					<form  action="{{route('contacto-tipo')}}"  method="POST" autocomplete="off">
 					@csrf
 					<input type="hidden" name="tipo" value="Paginas web desde $400">
 					<button type="submit" class="btn btn-info">Contactanos</button>
