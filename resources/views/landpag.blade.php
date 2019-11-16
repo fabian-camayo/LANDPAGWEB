@@ -2,9 +2,17 @@
 <html lang="es">
 <head>
 <title>LANDPAG | Desarrollo web profesional</title>
-
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width">
-
+<meta name="google-site-verification" content="6IlxN7EvPDjfY_9KDHXeb2Gaz5nTXuAx3NVpmOWdJ18" />
+<meta name="description"
+  content="Tener un sitio web nunca había sido tan fácil y LANDPAG es tu mejor opción para obtener diseños adaptables, escalables y amigables.">
+<meta name="keywords"
+  content="landpag,land pag,LANDPAG,LAND PAG,landing page,diseño web,desarrollo web,diseño web colombia,crear pagina,agencia desarrollo">
+<meta name="robots" content="Index, Follow">
+<meta name="google" content="nositelinkssearchbox">
+<meta name="author" content="LANDPAG">
 
 <link href="{{asset("assets/css/custom.css")}}" rel="stylesheet" type="text/css">
 <link href="{{asset("assets/css/bootstrap.min.css")}}" rel="stylesheet" type="text/css">
