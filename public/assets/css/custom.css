@@ -1,0 +1,565 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    outline: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrap {
+	width: 100%;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.section {
+	width: 100%;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+}
+
+.inner {
+	width: 100%;
+    position: relative;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.inner:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.divicion{
+    position: relative;
+    border-top: #25aae1 0.7vh solid;
+    margin: 0 5% 5% 5%;
+}
+
+.divicion div{
+    position: absolute;
+    margin: auto;
+    z-index: 30;
+    width: 5vh;
+    left: 48%;
+    border: #25aae1 0.3vw solid;
+    height: 5vh;
+    background: #fff;
+    top: -10;
+    margin: -1.5% 0 0 0;
+}
+
+.contlogo{
+    position: absolute;
+    left: 10%;
+    width: 50%;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+    background: url(../img/logo.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    float: left !important; 
+}
+
+.text-logo{
+    float: left !important;
+    height: 3.2rem;
+    padding-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    word-spacing: 20px;
+    font-family: fantasy;
+}
+
+.subMenu {
+	height: 50px;
+	z-index: 1000;
+	width: 100%;
+    background: #FFFFFF;
+    
+}
+
+.subMenu .inner {
+	padding:0;
+	font-weight: 400;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.subNavBtn {
+	display: block;
+	height: 35px;
+    float: left;
+    margin-left: 3em;
+	text-decoration: none !important;
+    font-size: 14px;
+	padding: 15px 2% 0 2%;
+	text-align: center;
+	color: #000000;
+}
+
+.subNavBtn:first-child{
+    margin-left: 44rem;
+}
+
+.subMenu a:hover {
+    color: #25aae1;
+}
+
+.active {
+    color: #25aae1;
+    font-weight: 555.5;
+}
+
+.end {
+	margin: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.color-blue{
+    color: #25aae1;
+}
+
+.solicitarflotante{
+    height: 5%;
+    width: 9%;
+    background-color: rgb(51, 206, 43);
+    z-index: 1000;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: #FFFF;
+    font-size: 3vh;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.solicitarflotante:hover{
+    color: #FFFF;
+    text-decoration: none !important;
+}
+
+.subir{
+    display: none;
+    height: 5%;
+    width: 3%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #FFFF !important;
+    font-size: 3.5vh;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.inicio {
+	color:#fff;
+	height: 100vh;
+}
+
+.banner1{
+    background: url( '../img/banner1.jpg') no-repeat center center fixed;
+}
+
+.banner2{
+    background: url( '../img/banner2.jpg') no-repeat center center fixed;
+}
+
+.banner3{
+    background: url( '../img/banner3.jpg') no-repeat center center fixed;
+}
+
+.banner4{
+    background: url( '../img/banner4.jpg') no-repeat center center fixed;
+}
+
+.banner5{
+    background: url( '../img/banner5.jpg') no-repeat center center fixed;
+}
+
+.banner
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index:20;
+    position:relative;
+    justify-content: center;
+    display: flex;
+}
+
+.bannerln{
+    z-index:22;
+    height: 100vh;
+    width: 33.33%;
+    margin:auto;
+    position:absolute;
+    border-right:1vw solid white;
+    border-left:1vw solid white;
+    top: 0;
+    margin-left: 33.33%;
+}
+
+.portada{
+    position: absolute;
+    z-index: 30;
+    bottom: 0;
+    margin-bottom: 10%;
+    margin-left: 33.8%;
+    text-align: center;
+    width: 33%;
+}
+
+.portadatitulo{
+    font-size: 40px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    word-spacing: 20px;
+    font-family: fantasy;
+}
+
+.patterndot:after {
+    background: url(../img/pattern_dot.png) repeat left top rgba(0,0,0,0.5);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 21;
+}
+
+.nosotros {
+    background: #FFFFFF;
+    height: 85vh;
+}
+
+.nosotrosbn{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.ns-100{
+    height: 100% !important;
+}
+
+.bannern1 {
+    background: url(../img/bannern1.jpg);
+    bottom: 10%;
+    left: 25%;
+}
+
+.bannern2{
+    background: url(../img/bannern2.jpeg);
+    top: 38%;
+    left: 25%;
+}
+
+.bannern3 {
+    background: url(../img/bannern3.jpg);
+    bottom: 37%;
+    left: 53%;
+}
+
+.bannern4 {
+    background: url(../img/bannern4.jpg);
+    top: 11%;
+    left: 53%;
+}
+
+.bannernosotros{
+    position: absolute;
+    z-index: 21;
+    height: 25%;
+    width: 25%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bannernosotros:hover{
+    border: #25aae1 2px solid;
+}
+
+.nosotrostx{
+    height: 100%;
+    margin-top: 25%;
+    text-align: center;
+}
+
+.servicios {
+  
+    height: 95vh;
+}
+
+.ns-p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.cardservicios{
+    height: 50%;
+    width: 50% !important;
+    display: block;
+    margin: auto;
+}
+
+.card:hover{
+    border: #25aae1 2px solid;
+}
+
+.sp-5{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.contacto {
+    
+    height: 85vh;
+}
+
+.ctp-5{
+    padding: 3rem;
+}
+.conformcontacto{
+    display: block;
+    margin: auto;
+    width: 40%;
+    text-align: center; 
+}
+
+.footer {
+	background: #25aae1;
+    color: #3d3d3d;
+    height: 20vh;
+    display: block;
+    margin: auto;
+    text-align: center; 
+}
+
+.fpt-5{
+    padding-top: 3rem!important;
+}
+
+@media (max-width:900px){
+
+    .txt-just{
+        text-align: justify;
+    }
+
+    .subMenu::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    .site-nav{
+        z-index: 1000 !important;
+        right:0;
+        position: absolute;
+        background: #FFFFFF;
+        clip-path: circle(0px at top right);
+        transition: clip-path ease-in-out 700ms;
+        display: inline-grid;
+        width: 12rem;
+        height: 15rem;
+        margin-top: 3.1rem;
+    }
+
+    .subNavBtn {
+        width: 50%;
+        margin-left: 3.3rem;
+    }
+    
+    .subNavBtn:first-child{
+        margin-left: 3.3rem;
+    }
+
+    .site-nav-open{
+        clip-path: circle(150% at top right);
+    }
+ 
+    .menu-toggle{
+   
+        padding: 1.2em;
+        position: absolute;
+        top: .0em;
+        right: .5em;
+        
+    }
+
+    .menu-open .menu-movil{
+        transform: rotate(45deg);
+    }
+
+    .menu-open .menu-movil::before{
+        opacity: 0;
+    }
+
+    .menu-open .menu-movil::after{
+        transform: translateY(-3px) rotate(-90deg);
+    }
+
+    .menu-movil,
+    .menu-movil::before,
+    .menu-movil::after{
+        content: '';
+        display: block;
+        background: #000000;
+        height: 3px;
+        width: 1.75em;
+        border-radius: 3px;
+        transition: all ease-in-out 500ms;
+    }
+
+    .menu-movil::before{
+        transform: translateY(-6px);
+    }
+
+    .menu-movil::after{
+        transform: translateY(3px);
+    }
+
+    .bannerln{
+        display: none;
+    }
+
+    .portada {
+        position: absolute;
+        z-index: 30;
+        margin-bottom: 25vh;
+        margin-left: 0%; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .nosotros {
+        height: auto;
+    }
+
+    .nosotrostx {
+        margin-top: 4rem;
+    }
+
+    .nosotrostx p{
+        text-align: justify;
+        padding: 0 1rem;
+    }
+
+    .bannernosotros {
+        width: 30vw !important;
+    }
+
+    .bannern1, .bannern2 {
+        left: 17% !important;
+    }
+
+    .bannern3,.bannern4 {
+        left: 53%;
+    }
+
+    .servicios{
+        height: auto;
+    }
+
+    .sp-5{
+        padding-left: 0rem!important;
+        padding-right: 0rem!important;
+    }
+
+    .ns-p{
+        text-align: justify;
+        padding: 0 1rem;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .contacto{
+        height: auto;
+    }
+
+    .solicitarflotante{
+        width: 7rem;
+        height: 2rem;
+        font-size: 1.2rem;
+        bottom: 1rem;
+    }
+
+    .subir{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .primero {
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .divicion div {
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+        margin: -0.7rem 0 0 0 !important;
+        border: #25aae1 0.2rem solid !important;
+    }
+
+    .ns-100{
+        height: 30rem !important;
+    }
+
+    .mv-card{
+        display: grid;
+        justify-items: center;
+        margin-bottom: 5%;
+    }
+
+    .conformcontacto {
+        width: auto !important;
+    }
+
+    .ctp-5{
+            padding: 1rem!important;
+    }
+
+    .footer {
+        height: auto !important;
+    }
+    
+    .fpt-5{
+        padding-top: 0rem!important;
+    }
+}
