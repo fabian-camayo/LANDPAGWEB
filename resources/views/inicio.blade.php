@@ -1,5 +1,4 @@
 <div class="section inicio">
-		<div class="inner">
 			<ul class="rslides">
 				<li>
 					<div class="banner banner1">
@@ -33,6 +32,4 @@
 					<button type="submit" class="btn btn-info">Contactanos</button>
 					</form>
 			</div>
-
-        </div>
 </div>

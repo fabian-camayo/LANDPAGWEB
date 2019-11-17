@@ -4,7 +4,7 @@
 <title>LANDPAG | Desarrollo web profesional</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="google-site-verification" content="6IlxN7EvPDjfY_9KDHXeb2Gaz5nTXuAx3NVpmOWdJ18" />
 <meta name="description"
   content="Tener un sitio web nunca había sido tan fácil y LANDPAG es tu mejor opción para obtener diseños adaptables, escalables y amigables.">
@@ -66,7 +66,7 @@ $(window).scroll(function(){
 	
 
 	<div class="subMenu" >
-	 	<div class="inner">
+	 	
 		<div class="contlogo">
 			<div class="logo"></div> 
 			<div class="text-logo">
@@ -82,7 +82,7 @@ $(window).scroll(function(){
 			<div id="menu-toggle" class="menu-toggle" onClick="cambiarClase()">
 					<div class="menu-movil"></div>
 			</div>			
-		</div>
+		
 	</div>
 	@include("inicio")
 
@@ -103,10 +103,10 @@ $(window).scroll(function(){
 
 	<div class="footer">
 		<div class="row">	
-			<div class="col-md-12 fpt-5">© Copyright 2019 landpag.com | Todos los derechos reservados | Desarrollo web profesional</div>
+			<div class="col-xl-12 fpt-5">© Copyright 2019 landpag.com | Todos los derechos reservados | Desarrollo web profesional</div>
 		</div>
 	</div>
-	<a class="solicitarflotante" target="_blank" href="https://web.whatsapp.com/send?phone=573197835853&text=¡Hola! ¿Deseo mayor información sobre el desarrollo de una página web?"><i class="fab fa-whatsapp"></i> Solicitar
+	<a class="solicitarflotante" target="_blank" href="https://api.whatsapp.com/send?phone=573197835853&text=¡Hola! ¿Deseo mayor información sobre el desarrollo de una página web?"><i class="fab fa-whatsapp"></i> Solicitar
 	</a>
 	<a class="subir"><i class="fas fa-arrow-up"></i></a>
 </div>

@@ -1,6 +1,4 @@
 <div class="section servicios">
-	<div class="inner h-100">
-		<section class="h-100">
 				<div class="row h-30">
 					<div class="col-12 text-center mb-2">
 							<h1 class="portadatitulo mt-4">Nuestros <span class="color-blue">servicios</span></h1>
@@ -9,7 +7,7 @@
 					</div>
 				</div>
 				<div class="row h-70 text-center sp-5">
-					<div class="col-md-3 mv-card">
+					<div class="col-xl-3 mv-card">
 						<div class="card" style="width: 18rem;">
 								<img src="{{ asset('assets/img/card1.svg') }}" class="card-img-top cardservicios" alt="Desarrollo y diseño web">
 								<div class="card-body">
@@ -23,7 +21,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 mv-card">
+					<div class="col-xl-3 mv-card">
 							<div class="card" style="width: 18rem;">
 									<img src="{{ asset('assets/img/card2.svg') }}" class="card-img-top cardservicios" alt="Gestión de bases de datos">
 								<div class="card-body">
@@ -37,7 +35,7 @@
 								</div>
 							</div>
 					</div>
-					<div class="col-md-3 mv-card">
+					<div class="col-xl-3 mv-card">
 							<div class="card" style="width: 18rem;">
 									<img src="{{ asset('assets/img/card3.svg') }}" class="card-img-top cardservicios" alt="Correos corporativos">
 								<div class="card-body">
@@ -51,7 +49,7 @@
 								</div>
 							</div>
 					</div>
-					<div class="col-md-3 mv-card">
+					<div class="col-xl-3 mv-card">
 							<div class="card" style="width: 18rem;">
 									<img src="{{ asset('assets/img/card4.svg') }}" class="card-img-top cardservicios" alt="Posicionmiento web">
 								<div class="card-body">
@@ -66,6 +64,4 @@
 							</div>
 					</div>
 				</div>
-		</section>
-	</div>
 </div>
