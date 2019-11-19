@@ -5,14 +5,21 @@ Este proyecto web es creado con el fin de ayudar a conocer los beneficios de ten
 Tecnologías utilizadas:
 
 Laravel (https://laravel.com/).
+
 Jquery (https://jquery.com/).
+
 Bootstrap 4 (https://getbootstrap.com/).
+
 Animate (https://daneden.github.io/animate.css/).
+
 Responsiveslides (http://responsiveslides.com/).
+
 Smint (http://www.outyear.co.uk/smint/).
+
 MySQL (https://www.mysql.com/).
 
 Recursos extraídos de terceros:
 
 Iconos (https://www.flaticon.es/).
+
 Imagenes (https://www.pexels.com).
